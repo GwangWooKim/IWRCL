@@ -1,0 +1,21 @@
+{
+  "x_dim": 1,
+  "h_dims": [
+    50
+  ],
+  "z_dim": 1,
+  "u_dim": 1,
+  "LayerNorm": false,
+  "SkipConnection_encoder": false,
+  "SkipConnection_decoder": false,
+  "batch_size": 128,
+  "epochs": 1000,
+  "kl_weight": 1.0,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0,
+  "data_name": "exp",
+  "model": "IWRCL",
+  "num_samples": 100,
+  "device": "cuda:0",
+  "seed": 42
+}

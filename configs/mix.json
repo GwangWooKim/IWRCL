@@ -1,0 +1,18 @@
+{
+  "x_dim": 1,
+  "h_dims": [
+    20,
+    20,
+    20
+  ],
+  "z_dim": 1,
+  "u_dim": 1,
+  "LayerNorm": true,
+  "SkipConnection_encoder": true,
+  "SkipConnection_decoder": true,
+  "batch_size": 128,
+  "epochs": 1000,
+  "kl_weight": 1.0,
+  "learning_rate": 0.001,
+  "weight_decay": 0.4
+}

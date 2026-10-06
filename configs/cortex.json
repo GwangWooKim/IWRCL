@@ -1,0 +1,16 @@
+{
+  "x_dim": 1200,
+  "h_dims": [
+    128
+  ],
+  "z_dim": 10,
+  "u_dim": 1200,
+  "LayerNorm": true,
+  "SkipConnection_encoder": false,
+  "SkipConnection_decoder": false,
+  "batch_size": 128,
+  "epochs": 400,
+  "kl_weight": 1e-3,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0
+}
